@@ -1,6 +1,6 @@
 # Cs2043_group_project
 
-A JavaFX application that allows students to search and view course offerings. Developed as part of CS2043: Intro to Software Engineering.
+A JavaFX application that allows student registration for courses. Offers both Student users and Admin users. Developed as part of CS2043: Intro to Software Engineering.
 
 ### Project Overview
 
@@ -12,11 +12,13 @@ The Student Registration App provides a JavaFX GUI that displays available cours
 - MVC Pattern
 
 ### Features:
-- Displauy list of available courses
-- Search bar for searching courses
+- Display list of available courses and students (for admin user)
+- Search bar for searching courses and students (for admin user)
 - Adding courses to schedule
+- Viewing student information (for admin user)
 - Admin and Student seperate interface
 - Navigation buttons
+- Completed courses vs complete curriculum page for students
 
 
 ### Team Members:
@@ -36,5 +38,34 @@ The Student Registration App provides a JavaFX GUI that displays available cours
 2. Open any IDE and open the zip file.
 3. Setup JavaFX and Javadoc in the IDE, adjust build path, class path, and run configurations as needed. There's plenty of resources online on how to do this.
 4. Run the app. You will be greeted with a login screen.
-<img width="522" height="488" alt="LogInView" src="https://github.com/user-attachments/assets/749c6daa-8d02-4b65-91b7-bb86a97fe391" />
+
+
+5. To enter the student interface, enter "user" for username, and "123" ( without the " ) as means of testing this app.
+
+
+6. Once logged in, you will be greeted with an empty schedule, and buttons on the right to navigate the app.
+
+
+7. Click on the course guidance button. This will display a page that shows completed courses and the complete curriculum.
+
+
+8. Click the "Course List" button to view all available sample courses. When adding a course, if it says "The course is already completed", it means this student has already completed this course and another must be chosen. Navigate the list with the "Go up" and "Go down" buttons. You can search for courses by typing the name and clicking the search button.
+
+
+9. After, adding some courses click "Back to schedule" and you will see your updated schedule.
+
+
+
+10. Log out if needed.
+
+11. Alternatively, to log in as an admin enter "admin" for username, and "123" (without the ") as means of testing this app.
+
+
+12. This will display a page with all students and an option to view each of their information pages. Click on any student "view student info" button to proceed. Navigate the list with the "Go up" and "Go down" buttons. You can search for students by typing the name and clicking the search button.
+
+
+13. This page will show all the relevant information regarding the student including name, ID, login credentials, completed courses, and more.
+
+
+14. Log out if needed.
 
